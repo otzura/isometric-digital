@@ -170,6 +170,8 @@ text-shadow:
 }
 
 footer {
+    font-weight: 100;
+    font-size: 15.8px;
     color: white;
     background-color: black;
     text-align: center;
