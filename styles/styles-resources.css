@@ -1,10 +1,10 @@
- body {
-  color: black;
+body {
     font-family: Arial, sans-serif;
-    background-color: white;
+    background-color: black;
     background-size: cover;
     margin: 0;
     padding: 0;
+    color: #fff;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -35,8 +35,8 @@ nav img {
 
 nav button {
     position: absolute;
-    top: 5px;
-    left: 10px;
+    top: 1vw;
+    left: 1vw;
     bottom: 607.5px;
     background-color: transparent;
     color: white;
@@ -118,8 +118,8 @@ footer {
 /* Position the close button (top right corner) */
 .overlay .closebtn {
   position: absolute;
-  top: -13px;
-  left: 6px;
+  top: -1vw;
+  left: 1vw;
   font-size: 60px;
 }
 

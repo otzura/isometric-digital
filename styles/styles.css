@@ -35,8 +35,8 @@ nav img {
 
 nav button {
     position: absolute;
-    top: 5px;
-    left: 10px;
+    top: 1vw;
+    left: 1vw;
     bottom: 607.5px;
     background-color: transparent;
     color: white;
@@ -71,7 +71,7 @@ nav button:hover {
 .hero h2 {
     text-transform: uppercase;
     text-align: left;
-    font-size: 8vw;
+    font-size: 10vw;
     margin-bottom: 0;
     margin-top: 35px;
 }
@@ -82,8 +82,12 @@ nav button:hover {
 }
 
 .hero p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     text-align: left;
-    font-size: 2vw;
+    font-size: 5vw;
 }
 
 .hero table {
@@ -91,24 +95,46 @@ nav button:hover {
 }
 
 .play-b {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    border-style: solid;
+    border-color: #006ef5;
     text-decoration: none;
-    background-color: #eb4d55;
-    color: white;
-    font-size: 1.4vw;
+    background-color: #006ef5;
+    color: #fff;
+    font-size: 2vw;
     border-radius: 100vw;
-    padding: 0.8vw;
+    padding: 1vw;
     transition: .2s;
 }
 
+.play-b:hover {
+    background-color: #fff;
+    color: #006ef5;
+}
+
 .about-b {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    border-style: solid;
+    border-color: #a1a1a1;
     text-transform: none;
     text-decoration: none;
-    background-color: #2997ff;
+    background-color: #a1a1a1;
     color: white;
-    font-size: 1.4vw;
+    font-size: 2vw;
     border-radius: 100vw;
-    padding: 0.8vw;
+    padding: 1vw;
     transition: .2s;
+}
+
+.about-b:hover {
+    color: #a1a1a1;
+    background-color: #fff;
 }
 
 
@@ -160,8 +186,8 @@ footer {
 /* Position the close button (top right corner) */
 .overlay .closebtn {
   position: absolute;
-  top: -13px;
-  left: 6px;
+  top: -1vw;
+  left: 1vw;
   font-size: 60px;
 }
 
